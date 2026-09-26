@@ -15,6 +15,21 @@ Every project uses official data (European Central Bank, Eurostat, U.S. Energy I
 | [**Algorithmic-trading**](https://github.com/paolo993788/Algorithmic-trading) | Would an investment committee fund these strategies, at what size and under which limits? | C++ backtests with execution lag and costs · walk-forward Kalman pairs trading · time-series momentum ensembles with volatility targeting · probability of backtest overfitting and deflated Sharpe ratio · VaR backtest, stress tests and a go/no-go memo |
 | [**Italian-public-debt**](https://github.com/paolo993788/Italian-public-debt) | Why is Italy's public debt so high, how should the public accounts be read, and what would put the debt ratio on a declining path? | Debt-dynamics decomposition and counterfactuals · structural balance and fiscal reaction function · growth accounting · stochastic debt sustainability with a C++ VAR-bootstrap engine · fiscal adjustment grids and EU rules checks |
 
+## Selected charts
+
+Drawn by the projects' own code from official data (ECB, Eurostat, EIA, Federal Reserve, IMF).
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/paolo993788/Quantitative-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Quantitative-finance/main/docs/figures/hedging_pnl-dark.png"><img alt="P&L of a delta-hedged FX option under three models: the tail risk is four times larger with realistic volatility dynamics than with constant volatility" src="https://raw.githubusercontent.com/paolo993788/Quantitative-finance/main/docs/figures/hedging_pnl-light.png"></picture></a></td>
+<td width="50%"><a href="https://github.com/paolo993788/Actuarial-mathematics"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Actuarial-mathematics/main/docs/figures/life_expectancy_65-dark.png"><img alt="Life expectancy at 65 in Italy, 1992-2024, and Lee-Carter projection to 2050" src="https://raw.githubusercontent.com/paolo993788/Actuarial-mathematics/main/docs/figures/life_expectancy_65-light.png"></picture></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/paolo993788/Algorithmic-trading"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Algorithmic-trading/main/docs/figures/momentum_overfitting-dark.png"><img alt="In-sample versus out-of-sample Sharpe ratios of 104 momentum configurations: the best backtest is not the best strategy" src="https://raw.githubusercontent.com/paolo993788/Algorithmic-trading/main/docs/figures/momentum_overfitting-light.png"></picture></a></td>
+<td width="50%"><a href="https://github.com/paolo993788/Italian-public-debt"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Italian-public-debt/main/docs/figures/debt_ratio-dark.png"><img alt="Italy's public debt, % of GDP, 1995-2025, compared with the EU27" src="https://raw.githubusercontent.com/paolo993788/Italian-public-debt/main/docs/figures/debt_ratio-light.png"></picture></a></td>
+</tr>
+</table>
+
 ## Toolbox
 
 - **Languages and tools**: Python (NumPy, SciPy, pandas, Matplotlib, Jupyter), C++17 (pybind11, multithreading), pytest, Git and GitHub, Visual Studio Code.
