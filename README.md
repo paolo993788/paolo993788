@@ -7,6 +7,15 @@ I build models to price and hedge derivatives, measure financial and longevity r
 
 My projects combine **C++17 engines**, **Python and Jupyter analysis**, and **independent R cross-checks**. They use official data and document assumptions, validation and limitations alongside the results.
 
+## Project index
+
+| Project | Research area | Source and validation |
+| --- | --- | --- |
+| [Quantitative finance](https://github.com/paolo993788/Quantitative-finance) | Derivatives and financial risk | [Code](https://github.com/paolo993788/Quantitative-finance/tree/main/scripts/quant_engine) · [Tests](https://github.com/paolo993788/Quantitative-finance/tree/main/tests) |
+| [Algorithmic trading](https://github.com/paolo993788/Algorithmic-trading) | Systematic strategies and portfolio construction | [Code](https://github.com/paolo993788/Algorithmic-trading/tree/main/scripts/backtest_engine) · [Tests](https://github.com/paolo993788/Algorithmic-trading/tree/main/tests) |
+| [Actuarial mathematics](https://github.com/paolo993788/Actuarial-mathematics) | Mortality, annuities and insurance capital | [Code](https://github.com/paolo993788/Actuarial-mathematics/tree/main/scripts/longevity_risk) · [Tests](https://github.com/paolo993788/Actuarial-mathematics/tree/main/tests) |
+| [Italian public debt](https://github.com/paolo993788/Italian-public-debt) | Fiscal sustainability and sovereign risk | [Code](https://github.com/paolo993788/Italian-public-debt/tree/main/scripts/public_debt) · [Tests](https://github.com/paolo993788/Italian-public-debt/tree/main/tests) |
+
 ## Selected work
 
 ### [Quantitative finance](https://github.com/paolo993788/Quantitative-finance)
