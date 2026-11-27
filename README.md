@@ -1,91 +1,20 @@
 # Paolo Pajo
 
-**Quantitative finance · Actuarial science · Systematic trading · Public finance**  
-Italy · [LinkedIn](https://www.linkedin.com/in/paolopajo) · [All repositories](https://github.com/paolo993788?tab=repositories)
+I develop and validate quantitative models for derivatives, systematic strategies, longevity risk and public finance. The projects combine C++17 numerical engines with Python analysis and Jupyter notebooks. Selected calculations have independent R cross-checks.
 
-I build models to price and hedge derivatives, measure financial and longevity risk, evaluate trading strategies and analyse public debt.
+## Selected research
 
-My projects combine **C++17 engines**, **Python and Jupyter analysis**, and **independent R cross-checks**. They use official data and document assumptions, validation and limitations alongside the results.
-
-## Project index
-
-| Project | Research area | Source and validation |
+| Project | Research focus | Case study |
 | --- | --- | --- |
-| [Quantitative finance](https://github.com/paolo993788/Quantitative-finance) | Derivatives and financial risk | [Code](https://github.com/paolo993788/Quantitative-finance/tree/main/scripts/quant_engine) · [Tests](https://github.com/paolo993788/Quantitative-finance/tree/main/tests) |
-| [Algorithmic trading](https://github.com/paolo993788/Algorithmic-trading) | Systematic strategies and portfolio construction | [Code](https://github.com/paolo993788/Algorithmic-trading/tree/main/scripts/backtest_engine) · [Tests](https://github.com/paolo993788/Algorithmic-trading/tree/main/tests) |
-| [Actuarial mathematics](https://github.com/paolo993788/Actuarial-mathematics) | Mortality, annuities and insurance capital | [Code](https://github.com/paolo993788/Actuarial-mathematics/tree/main/scripts/longevity_risk) · [Tests](https://github.com/paolo993788/Actuarial-mathematics/tree/main/tests) |
-| [Italian public debt](https://github.com/paolo993788/Italian-public-debt) | Fiscal sustainability and sovereign risk | [Code](https://github.com/paolo993788/Italian-public-debt/tree/main/scripts/public_debt) · [Tests](https://github.com/paolo993788/Italian-public-debt/tree/main/tests) |
+| [Quantitative Finance](https://github.com/paolo993788/Quantitative-finance) | Derivatives pricing and hedging, market risk, and interest-rate risk | [Pricing and hedging an exporter’s FX option](https://github.com/paolo993788/Quantitative-finance/blob/main/notebooks/case_studies/fx_option_desk_hedging.ipynb) |
+| [Algorithmic Trading](https://github.com/paolo993788/Algorithmic-trading) | Systematic strategies, execution, portfolio construction and backtest validation | [Investment committee review of a two-strategy fund](https://github.com/paolo993788/Algorithmic-trading/blob/main/notebooks/case_studies/multi_strategy_investment_committee.ipynb) |
+| [Actuarial Mathematics](https://github.com/paolo993788/Actuarial-mathematics) | Mortality modelling, annuity valuation, Solvency II and longevity hedging | [Pension buy-in pricing and capital requirements](https://github.com/paolo993788/Actuarial-mathematics/blob/main/notebooks/case_studies/pension_buy_in_pricing.ipynb) |
+| [Italian Public Debt](https://github.com/paolo993788/Italian-public-debt) | Debt dynamics, fiscal sustainability and sovereign spreads | [Stochastic debt sustainability and policy scenarios](https://github.com/paolo993788/Italian-public-debt/blob/main/notebooks/sustainability/04_debt_sustainability_and_policy_options.ipynb) |
 
-## Selected work
+## Methods and software
 
-### [Quantitative finance](https://github.com/paolo993788/Quantitative-finance)
+- **Numerical methods** — Monte Carlo, finite differences, Fourier pricing, volatility models, Kalman filtering, optimisation and panel econometrics.
+- **Software** — Python, C++17, R, NumPy, SciPy, pandas, pybind11, Matplotlib and Jupyter.
+- **Validation** — analytical or published benchmarks, empirical backtests with stated execution assumptions, numerical tests and GitHub Actions.
 
-Option pricing, hedging and bank risk: Black-Scholes and Heston models, Monte Carlo and PDE engines, GARCH-based VaR/ES backtesting, FRTB capital, yield-curve modelling and IRRBB swap hedges.
-
-**Start here:** [Pricing and hedging an FX option for an exporter](https://github.com/paolo993788/Quantitative-finance/blob/main/notebooks/case_studies/fx_option_desk_hedging.ipynb).
-
-### [Actuarial mathematics](https://github.com/paolo993788/Actuarial-mathematics)
-
-Life insurance and longevity risk: Lee-Carter mortality forecasts, annuity simulation, Smith-Wilson discounting, Solvency II capital and risk margin, and multi-population longevity hedging with q-forwards.
-
-**Start here:** [Pricing a pension buy-in and its capital requirements](https://github.com/paolo993788/Actuarial-mathematics/blob/main/notebooks/case_studies/pension_buy_in_pricing.ipynb).
-
-### [Systematic trading](https://github.com/paolo993788/Algorithmic-trading)
-
-Strategy research with explicit costs, execution lags and out-of-sample evaluation: Kalman pairs trading, time-series momentum, G10 currency carry, momentum and value, with overfitting diagnostics and portfolio risk controls.
-
-**Start here:** [An investment committee review of a two-strategy fund](https://github.com/paolo993788/Algorithmic-trading/blob/main/notebooks/case_studies/multi_strategy_investment_committee.ipynb).
-
-### [Italian public debt](https://github.com/paolo993788/Italian-public-debt)
-
-Public finance and macroeconomic analysis: debt-dynamics decomposition, fiscal counterfactuals, stochastic debt sustainability, fiscal fatigue, debt limits and the BTP-Bund spread.
-
-**Start here:** [Debt sustainability and policy options](https://github.com/paolo993788/Italian-public-debt/blob/main/notebooks/sustainability/04_debt_sustainability_and_policy_options.ipynb).
-
-## How I work
-
-- **Official sources:** ECB, Eurostat, EIA, Federal Reserve, IMF and OECD, with data sources and vintages documented in each project.
-- **Validation:** closed-form solutions, published benchmarks or independent implementations, with explicit numerical tolerances.
-- **Reproducibility:** fixed seeds, thread-independent random streams, and clear separation of in-sample and out-of-sample periods.
-- **Interpretation:** each case study connects results to a decision, states its limits and reports when the evidence does not support proceeding.
-
-## Technical toolkit
-
-| Area | Tools and methods |
-| --- | --- |
-| Languages | Python · C++17 · R |
-| Computing | NumPy · SciPy · pandas · pybind11 · multithreading |
-| Research and validation | Jupyter · Matplotlib · pytest · independent R cross-checks |
-| Modelling | Monte Carlo · PDE and Fourier pricing · GARCH · Kalman filtering · cointegration · mortality models · panel econometrics · linear programming |
-| Workflow | Git · GitHub · Visual Studio Code |
-
-## Selected charts
-
-Generated by the projects' own code from official data. Select a chart to open its project.
-
-<table>
-<tr>
-<td width="50%"><a href="https://github.com/paolo993788/Quantitative-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Quantitative-finance/main/docs/figures/hedging_pnl-dark.png"><img alt="P&L of a delta-hedged FX option under three models: the tail risk is four times larger with realistic volatility dynamics than with constant volatility" src="https://raw.githubusercontent.com/paolo993788/Quantitative-finance/main/docs/figures/hedging_pnl-light.png"></picture></a></td>
-<td width="50%"><a href="https://github.com/paolo993788/Actuarial-mathematics"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Actuarial-mathematics/main/docs/figures/life_expectancy_65-dark.png"><img alt="Life expectancy at 65 in Italy, 1992-2024, and Lee-Carter projection to 2050" src="https://raw.githubusercontent.com/paolo993788/Actuarial-mathematics/main/docs/figures/life_expectancy_65-light.png"></picture></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/paolo993788/Algorithmic-trading"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Algorithmic-trading/main/docs/figures/momentum_overfitting-dark.png"><img alt="In-sample versus out-of-sample Sharpe ratios of 104 momentum configurations: the best backtest is not the best strategy" src="https://raw.githubusercontent.com/paolo993788/Algorithmic-trading/main/docs/figures/momentum_overfitting-light.png"></picture></a></td>
-<td width="50%"><a href="https://github.com/paolo993788/Italian-public-debt"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Italian-public-debt/main/docs/figures/debt_ratio-dark.png"><img alt="Italy's public debt, % of GDP, 1995-2025, compared with the EU27" src="https://raw.githubusercontent.com/paolo993788/Italian-public-debt/main/docs/figures/debt_ratio-light.png"></picture></a></td>
-</tr>
-</table>
-
-<details>
-<summary>More charts: bank hedging, longevity, currency strategies and sovereign spreads</summary>
-
-<table>
-<tr>
-<td width="50%"><a href="https://github.com/paolo993788/Quantitative-finance"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Quantitative-finance/main/docs/figures/irrbb_hedging-dark.png"><img alt="Change in a bank's economic value of equity under the six BCBS interest-rate scenarios and the worst historical year: a swap hedge fitted only to the supervisory scenarios fails on history" src="https://raw.githubusercontent.com/paolo993788/Quantitative-finance/main/docs/figures/irrbb_hedging-light.png"></picture></a></td>
-<td width="50%"><a href="https://github.com/paolo993788/Actuarial-mathematics"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Actuarial-mathematics/main/docs/figures/index_hedge-dark.png"><img alt="Share of an Italian annuity's longevity value at risk removed by q-forwards on five population indices, with coherent and permanent national deviations" src="https://raw.githubusercontent.com/paolo993788/Actuarial-mathematics/main/docs/figures/index_hedge-light.png"></picture></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/paolo993788/Algorithmic-trading"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Algorithmic-trading/main/docs/figures/fx_styles-dark.png"><img alt="Growth of G10 currency carry, momentum and value portfolios against the euro, 1999-2025: carry paid until 2012 and very little since" src="https://raw.githubusercontent.com/paolo993788/Algorithmic-trading/main/docs/figures/fx_styles-light.png"></picture></a></td>
-<td width="50%"><a href="https://github.com/paolo993788/Italian-public-debt"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/paolo993788/Italian-public-debt/main/docs/figures/spread_fundamentals-dark.png"><img alt="BTP-Bund spread and the part explained by fundamentals, 2005-2025: above fundamentals in 2012 and 2018, below them in 2024-2025" src="https://raw.githubusercontent.com/paolo993788/Italian-public-debt/main/docs/figures/spread_fundamentals-light.png"></picture></a></td>
-</tr>
-</table>
-
-</details>
+[LinkedIn](https://www.linkedin.com/in/paolopajo) · [All repositories](https://github.com/paolo993788?tab=repositories)
